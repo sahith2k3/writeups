@@ -7,8 +7,10 @@ Considering 'Double Quotes' from the topic's name, using double quotes after num
 
 an error is returned:
 
-``` You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right 
-syntax to use near '' at line 1```
+``` 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right 
+syntax to use near '' at line 1
+```
 
 Alternately using ``` ?id=1") -- - ```,
 
