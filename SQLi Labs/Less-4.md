@@ -14,8 +14,10 @@ syntax to use near '' at line 1
 
 Alternately using ``` ?id=1") -- - ```,
 
-``` Your Login name:Dumb
-Your Password:Dumb ```
+``` 
+Your Login name:Dumb
+Your Password:Dumb 
+```
 
 So, the input must be going into the query like ```.... WHERE id = ("<input>") ....;```
 
