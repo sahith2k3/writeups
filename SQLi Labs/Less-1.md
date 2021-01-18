@@ -55,7 +55,8 @@ Therefore to get a dump of this table I finally used,
 
 And the username and password dump was finally printed!!!!
 
-```Your Login name:Dumb|Dumb,Angelina|I-kill-you,Dummy|p@ssword,secure|crappy,stupid|stupidity,superman|genious,batman|mob!le,admin|admin,admin1|admin1,admin2|admin2,admin3|admin3,dhakkan|dumbo,admin4|admin4
+```
+Your Login name:Dumb|Dumb,Angelina|I-kill-you,Dummy|p@ssword,secure|crappy,stupid|stupidity,superman|genious,batman|mob!le,admin|admin,admin1|admin1,admin2|admin2,admin3|admin3,dhakkan|dumbo,admin4|admin4
 Your Password:3
 ```
 
