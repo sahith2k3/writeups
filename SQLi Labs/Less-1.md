@@ -51,7 +51,10 @@ Your Password:3
 
 
 references:
--https://www.sqlinjection.net/numeric-parameters/
--https://portswigger.net/web-security/sql-injection/union-attacks
--https://noobsec.net/sqli-cheatsheet/#Database-Contents
+-[https://www.sqlinjection.net/numeric-parameters/]
+
+-[https://portswigger.net/web-security/sql-injection/union-attacks]
+
+-[https://noobsec.net/sqli-cheatsheet/#Database-Contents]
+
 
