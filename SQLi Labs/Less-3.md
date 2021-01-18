@@ -1,6 +1,6 @@
 Hello guys,
 
-This is the write-up for Less-3 'GET - Error based - Single quotes with twist - string'.
+This is the write-up for Less-3 'GET - Error based - Single quotes with twist - string' from SQLi Labs.
 
 So getting started,
 
