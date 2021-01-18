@@ -1,6 +1,6 @@
 Hello guys,
 
-This is the write up for Less-1 - " GET-Error Based- Single Quotes - String"
+This is the write up for Less-1 - " GET-Error Based- Single Quotes - String" from SQLi Labs
 
 
 started with a [URL].../Less-1/ page, which instructed me to input the ID as parameter with numeric value.
