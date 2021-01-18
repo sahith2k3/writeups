@@ -13,13 +13,14 @@ So I start with adding ```?id=1``` after the URL and got
 in the page.
 
 and using different numbers after 2, I got different Login names and passwords.
-So it seemd like ```?id=x```, is going into an sql command like
-```SELECT _____ FROM _____ WHERE id = x;```
 
 As the name of the Lesson suggests I start with a single quote Error
 so I type a single quote ... ```[URL]/?id=1'```
 and an error is returned ```You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the 
 right syntax to use near ''1'' LIMIT 0,1' at line 1```
+
+So it seemd like ```?id=x```, is going into an sql command like
+```SELECT _____ FROM _____ WHERE id = 'x';```
 
 This is because there are odd number of single quotes.
 However, I continue by trying to find out the number of columns in the table from which the usernames and passwords are printed from, by adding 
