@@ -1,7 +1,5 @@
 Hello guys,
 
-This is the first time im doing something related to SQL injection. I have basic knowledge about sql syntax and functions...
-
 This is the write up for Less-1 - " GET-Error Based- Single Quotes - String"
 
 
