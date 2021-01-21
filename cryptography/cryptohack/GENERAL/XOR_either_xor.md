@@ -14,8 +14,8 @@ it looked incomplete, and after adding making it ```myXORkey``` AND trying to de
 
 the plaintext was returned.
 
-
-
+python code:
+```
 from pwn import xor
 from Crypto.Util.number import bytes_to_long
 
@@ -30,3 +30,4 @@ for i in range(7):
 key += 'y'                              #The key looks to be "myXORke.." so i tried decoding by adding 'y'
 
 print(xor(cipher_byte, key))
+```
