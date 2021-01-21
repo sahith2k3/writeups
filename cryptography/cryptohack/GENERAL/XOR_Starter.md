@@ -14,4 +14,4 @@ for i in string:
 
 print(new_string)
 ```
-*** WHEN LABEL was XORed with 13, ALOHA was returned, which is the Havaiian word for Hi .... and bye :)
+*** WHEN "label" was XORed with 13, "aloha" was returned, which is the Havaiian word for Hi .... and bye :)
