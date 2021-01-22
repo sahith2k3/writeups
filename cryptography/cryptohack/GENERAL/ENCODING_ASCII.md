@@ -1,5 +1,5 @@
 
-This is the write up for ASCII task in GENERAL/ENCODING from cryptohack.com
+This is the write up for ASCII task in GENERAL/ENCODING from cryptohack.org
 
 I simply used the inbuilt function ```chr``` to convert decimal to ASCII
 
