@@ -4,6 +4,8 @@ extern printf
 extern scanf
 
 section .rodata
+	in_1: db "input 1st number: ", 0
+	in_2: db "input 2nd number: ", 0
 	fmt: db "%d", 0
 	sum_out: db "sum is %d", 10 ,0
 	sub_out: db "difference is %d", 10, 0
@@ -19,10 +21,17 @@ section .text
 	push ebp
 	sub esp, 0x20
 
+
+	push in_1
+	call printf
+
 	lea eax, [ebp-0x4]
 	push eax
 	push fmt
 	call scanf
+
+	push in_2
+	call printf
 
 	lea edx, [ebp-0x8]
 	push edx
@@ -64,13 +73,13 @@ section .text
 	mov eax, [ebp-0x4]
 	div dword [ebp-0x8]
 	mov dword [ebp-0x12], eax
+	mov dword [ebp-0x16], edx
 
 	push dword [ebp-0x12]
 	push div_out
 	call printf
 
-	mov dword [ebp-0x12], edx
-	push dword [ebp-0x12]
+	push dword [ebp-0x16]
 	push divr_out
 	call printf
 
