@@ -44,9 +44,8 @@ I could select whitespaces in the first nine lines, which was odd. So starting m
 
 I used this linux command ``` $ stegsnow -C THISISIT.txt```
 
-``` 
-ntio{eP1B35x4K3_aB3O0_q5_K00t}
-``` was printed in the terminal.
+``` ntio{eP1B35x4K3_aB3O0_q5_K00t} ``` 
+was printed in the terminal.
 as the flag format was given as ``` flag{some_l33t_string} ```
 
 I used caesar cipher from dcode.fr to get the decrypt the flag which was
