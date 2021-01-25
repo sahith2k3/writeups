@@ -9,7 +9,7 @@ Flag Format: flag{some_l33t_string}"
 and a text file called 'THISISIT.txt' was given.
 
 
-opening thi file..
+opening this file..
 
 ```
 I see you standing among them all    	 	  	      	 	  
