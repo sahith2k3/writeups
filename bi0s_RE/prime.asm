@@ -1,4 +1,4 @@
-```BITS 32
+BITS 32
 
 extern scanf
 extern printf
@@ -46,4 +46,4 @@ section .text
 	call printf
 	ret
 	
-```
+
