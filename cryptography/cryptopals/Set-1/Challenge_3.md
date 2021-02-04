@@ -33,7 +33,7 @@ for i in range(256):
         if c in string.ascii_lowercase:
             score += letterFrequency[c.upper()]
         if c in string.ascii_uppercase:
-            score += letterFrequency[c] * 0.9
+            score += letterFrequency[c] * 0.5
     score /= len(cipher_byte)
     for j in temp_plain:
         if chr(j) not in (string.ascii_letters + ",.'?! "):
