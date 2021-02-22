@@ -14,9 +14,9 @@ decryting this text with a MD5 decrypter online, ``` WEAREFREE ``` was returned.
 
 assuming this might be some kind of a password...
 
-SO Using ```$ steghide extract -sf SH_challenge4.jpg -p WEAREFREE```, 
+So Using ```$ steghide extract -sf SH_challenge4.jpg -p WEAREFREE```, 
 
 ```wrote extracted data to "vip.txt".``` was returned.
 
-finally ```cat vip.text``` gave the flag ```inctf{H4pPy_Ind3p3nD3nC3_D4Y}```
+finally ```cat vip.txt``` gave the flag ```inctf{H4pPy_Ind3p3nD3nC3_D4Y}```
 
