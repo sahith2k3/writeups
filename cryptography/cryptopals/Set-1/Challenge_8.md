@@ -5,8 +5,7 @@ This is a writeup for "Detect AES in ECB mode" frpm Set-I cryptopals.org
 
 Python code:
 ```
-referred to laconicwolf.com
-
+#referred to laconicwolf.com
 
 def count_repetitions(ct, block_size):
 	chunks = [ct[i:i+block_size] for i in range(0, len(ct), block_size)]
