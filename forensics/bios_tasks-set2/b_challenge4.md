@@ -34,7 +34,7 @@ DECIMAL       HEXADECIMAL     DESCRIPTION
 seemed like there were many fils hiding in there.
 
 
-I extracted all of them using ``` binwalk -dd='.*' b_challenge4.docx ``` and it extracted the files to '_b_challenge.docx.extracted' folder and then i extracted another
+I extracted all of them using ```$ binwalk -dd='.*' b_challenge4.docx ``` and it extracted the files to '_b_challenge.docx.extracted' folder and then i extracted another
 
 file called '0' inside this folder.
 
@@ -45,6 +45,6 @@ Staying in the same folder I continued with
 $ egrep -r "flag" *
 grep: word/media/image2.jpeg: binary file matches
 ```
-So I cd to ```word/media/``` and use ``` strings image2.jpeg| grep "flag" ``` to finally find the flag!
+So I cd to ```word/media/``` and use ```$ strings image2.jpeg| grep "flag" ``` to finally find the flag!
 
 The Flag: ```flag{h0wz_the_joke_hahahha!!}```
