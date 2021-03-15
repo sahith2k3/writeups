@@ -7,7 +7,7 @@ cyclops,robots,flying cars and crazy scientists. He is given a note but he cant 
 
 File:
 
-![img]https://i.imgur.com/ypgajIt.png[/img]
+![img](https://i.imgur.com/ypgajIt.png[/img])
 
 Solution:
 ---------
