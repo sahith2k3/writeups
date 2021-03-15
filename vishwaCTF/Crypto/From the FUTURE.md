@@ -16,7 +16,7 @@ Considering the challenge name, I found it was in written in Futurama Alienese s
 
 Then transcripted the note with this image...
 
-![alt text](https://in.pinterest.com/pin/154177987218086737/)
+![alt text](https://static.wikia.nocookie.net/enfuturama/images/d/da/740px-Alien_decoder_Futurama.svg.png/revision/latest?cb=20130805223309)
 
 The Flag:
 ---------
