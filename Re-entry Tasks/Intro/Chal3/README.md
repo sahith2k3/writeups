@@ -1,0 +1,1 @@
+ Alice wants to send the same message to 4 different people. So, for this he generates 4 different public key pairs, encrypts the same message for 4 people using these public key pairs, generates the corresponding ciphertexts and sends each ciphertext to each person. We have the public key parameters for each person. Find the vulnerability, and find out what Alice is sending!

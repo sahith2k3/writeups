@@ -1,0 +1,2 @@
+You are given ciphertext of a message that is encrypted using encrypt.py and stored in ciphertext.txt. Also, you are given public key parameters in publickey.pem. Sometimes you have to look carefully how some values are being generated, and if their exists some pattern.
+Apply your school mathematics to solve this challenge! I am sure you will be happy once you get the solution to this challenge ;)
