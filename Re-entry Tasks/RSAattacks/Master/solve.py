@@ -1,6 +1,5 @@
 import gmpy2
 from math import gcd
-import factordb
 from Crypto.Util.number import long_to_bytes as l2b
 from factordb.factordb import FactorDB
 
